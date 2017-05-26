@@ -31,3 +31,5 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd)
 
 model.fit(x_train, y_train, batch_size=32, epochs=10)
 score = model.evaluate(x_test, y_test, batch_size=32)
+
+print('end.')
